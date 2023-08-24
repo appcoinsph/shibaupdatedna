@@ -29,7 +29,20 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
-<body>
+<body
+    onload="startTime()">
+
+  <div id="clockdate">
+
+  <div class="clockdate-wrapper">
+
+    <div id="clock"></div>
+
+    <div id="date"></div>
+
+  </div>
+
+  </div>
     <div class="gameFullContent">
         <div class="leftContainer">
             <span class="version"></span>
@@ -40,17 +53,6 @@
             <p class="crystalAmountDisplay"><span class="crystalAmount">0</span> Crystals</p>
             <p class="bSecRate"><span class="bSecRateNumber">0</span> Shiba/sec</p>
             <img class="shiba" src="images/echozoneshiba.png">
-        </div>
-        <div  onload="startTime()">
-
-  <div id="clockdate">
-
-  <div class="clockdate-wrapper">
-
-    <div id="clock"></div>
-
-    <div id="date"></div>
-
   </div>
         </div>
         
