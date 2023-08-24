@@ -71,7 +71,7 @@ body{
     overflow-x: hidden;
 }
 
-.bitcoinAmountDisplay{
+.shibaAmountDisplay{
     text-align: center;
     font-family: VCR OSD Mono, cursive;
     font-size: 45pt;
@@ -79,7 +79,7 @@ body{
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
     margin: 20px 0 0 0px;
 }
-.satoshiAmountDisplay {
+.crystalAmountDisplay {
     text-align: center;
     font-family: VCR OSD Mono, cursive;
     font-size: 15pt;
@@ -97,7 +97,7 @@ body{
 }
 
 /* BITCOIN */
-.bitcoin{
+.shiba{
     width: 25%;
     display: block;
     position: absolute;
@@ -109,13 +109,13 @@ body{
     animation: rotation 20s linear infinite;
     border-radius: 500px;
 }
-.bitcoin:hover{
+.shiba:hover{
     width: 27%;
     top: 23%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
     cursor:pointer;
 }
-.bitcoin:active{
+.shiba:active{
     width: 23%;
     top: 27%;
     transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
@@ -133,7 +133,7 @@ body{
 
 @media screen and (max-width: 767px) {
     /* BITCOIN */
-    .bitcoin{
+    .shiba{
         width: 35%;
         display: block;
         position: absolute;
@@ -145,13 +145,13 @@ body{
         animation: rotation 20s linear infinite;
         border-radius: 500px;
     }
-    .bitcoin:hover{
+    .shiba:hover{
         width: 37%;
         top: 33%;
         transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
         cursor: pointer;
     }
-    .bitcoin:active{
+    .shiba:active{
         width: 33%;
         top: 37%;
         transition: width 0.2s ease-in-out, top 0.2s ease-in-out;
