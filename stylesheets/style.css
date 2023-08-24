@@ -96,7 +96,7 @@ body{
     text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black
 }
 
-/* BITCOIN */
+/* SHIBA */
 .shiba{
     width: 25%;
     display: block;
@@ -132,7 +132,7 @@ body{
 /* Optimization for smaller screens */
 
 @media screen and (max-width: 767px) {
-    /* BITCOIN */
+    /* SHIBA */
     .shiba{
         width: 35%;
         display: block;
