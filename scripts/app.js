@@ -1,4 +1,4 @@
-5var shibas = 0
+var shibas = 0
 var shibaRate = 0
 
 // Every item in the game
