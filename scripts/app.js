@@ -1,4 +1,4 @@
-var shibas = 0
+5var shibas = 0
 var shibaRate = 0
 
 // Every item in the game
@@ -120,7 +120,7 @@ var Game = {}
 // Every constant variable is saved here
 Game.GameConst = {
   "priceMultiplier": 2,
-  "VERSION": "all members reached 100000 shiba ruther tumanda,jeryan royate,alvin reyes ,jasmin glinoga,abby valdez and members reached 10000 shiba,liza elarmo"
+  "VERSION": "NORMAL"
 }
 
 Game.units = [
