@@ -120,7 +120,7 @@ var Game = {}
 // Every constant variable is saved here
 Game.GameConst = {
   "priceMultiplier": 2,
-  "VERSION": "NORMAL SERVER"
+  "VERSION": "all members reached 100000 shiba ruther tumanda,jeryan royate,alvin reyes ,jasmin glinoga,abby valdez"
 }
 
 Game.units = [
